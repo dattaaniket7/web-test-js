@@ -7,13 +7,13 @@ const turtle = {
   diet: "berries",
 };
 
-function feed(animal) {
-  return `Feed ${animal.name} ${animal.meal} kilos of ${animal.diet}`;
-}
+// function feed(animal) {
+//   return `Feed ${animal.name} ${animal.meal} kilos of ${animal.diet}`;
+// }
 
-function feed({ name, meal, diet }) {
-  return `Feed ${name} ${meal} kilos of ${diet}`;
-}
+// function feed({ name, meal, diet }) {
+//   return `Feed ${name} ${meal} kilos of ${diet}`;
+// }
 
 // OR
 
